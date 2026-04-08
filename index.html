@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QueryShift | Elite Software Agency</title>
+    <meta name="description" content="Especialistas em desenvolvimento de software, automações e inteligência de dados. Elevamos o padrão tecnológico da sua empresa.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <div id="scroll-progress"></div>
+    
+    <header id="main-header">
+        <nav class="container">
+            <div class="logo">
+                <span class="logo-text white">Query<span class="accent">Shift</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services" data-i18n="nav.services">Serviços</a></li>
+                <li><a href="#process" data-i18n="nav.process">Processo</a></li>
+                <li><a href="#works" data-i18n="nav.works">Portfólio</a></li>
+                <li><a href="#about" data-i18n="nav.about">Agência</a></li>
+            </ul>
+            <div class="header-actions">
+                <button id="lang-toggle" class="lang-btn">EN</button>
+                <a href="#contact" class="btn btn-primary" data-i18n="nav.schedule">Agendar Chamada</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <span class="section-tag animate-on-scroll" data-i18n="hero.tag">Próxima Geração de Tech</span>
+                <h1 class="animate-on-scroll" data-i18n="hero.title">
+                    Transformamos <br><span class="accent">Queries</span> em Resultados.
+                </h1>
+                <p class="animate-on-scroll" data-i18n="hero.subtitle">
+                    A QueryShift é uma boutique de software especializada em sistemas de alto desempenho, automações inteligentes e análise de dados estratégica.
+                </p>
+                <div class="hero-btns animate-on-scroll">
+                    <a href="#works" class="btn btn-primary" data-i18n="hero.btn_works">Ver Portfólio</a>
+                    <a href="#services" class="btn btn-outline" data-i18n="hero.btn_services">Nossos Serviços</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="process" class="process-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag animate-on-scroll" data-i18n="process.tag">Como Trabalhamos</span>
+                    <h2 class="section-title animate-on-scroll" data-i18n="process.title">Nosso Fluxo de Entrega</h2>
+                </div>
+                <div class="process-grid">
+                    <div class="process-item animate-on-scroll">
+                        <span class="process-number">01</span>
+                        <h3 data-i18n="process.step1.title">Analyze</h3>
+                        <p data-i18n="process.step1.desc">Mergulhamos nos seus dados e processos para identificar gargalos e oportunidades de shift real.</p>
+                    </div>
+                    <div class="process-item animate-on-scroll">
+                        <span class="process-number">02</span>
+                        <h3 data-i18n="process.step2.title">Shift</h3>
+                        <p data-i18n="process.step2.desc">Desenvolvemos a solução técnica sob medida usando stack de ponta e arquitetura sólida.</p>
+                    </div>
+                    <div class="process-item animate-on-scroll">
+                        <span class="process-number">03</span>
+                        <h3 data-i18n="process.step3.title">Scale</h3>
+                        <p data-i18n="process.step3.desc">Implementamos fluxos de monitoramento e escala para garantir que o resultado seja contínuo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag animate-on-scroll" data-i18n="services.tag">Expertise</span>
+                    <h2 class="section-title animate-on-scroll" data-i18n="services.title">Domínios de Atuação</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card animate-on-scroll">
+                        <div class="icon-container">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                        </div>
+                        <h3 data-i18n="services.software.title">Software Full-Stack</h3>
+                        <p data-i18n="services.software.desc">Web apps ultra-rápidos, aplicativos mobile nativos e sistemas de backend robustos.</p>
+                    </div>
+                    <div class="service-card animate-on-scroll">
+                        <div class="icon-container">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                        </div>
+                        <h3 data-i18n="services.automation.title">Automações</h3>
+                        <p data-i18n="services.automation.desc">Sistemas autônomos que operam 24/7, eliminando erros humanos e reduzindo custos operacionais.</p>
+                    </div>
+                    <div class="service-card animate-on-scroll">
+                        <div class="icon-container">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20v-6M6 20V10M18 20V4"/></svg>
+                        </div>
+                        <h3 data-i18n="services.data.title">Inteligência de Dados</h3>
+                        <p data-i18n="services.data.desc">Transformamos dados em dashboards interativos e modelos preditivos para decisões seguras.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="works" class="works-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag animate-on-scroll" data-i18n="works.tag">Portfólio</span>
+                    <h2 class="section-title animate-on-scroll" data-i18n="works.title">Trabalhos Selecionados</h2>
+                </div>
+                <div class="works-grid">
+                    <div class="work-card animate-on-scroll" onclick="openModal('taxbase')">
+                        <img src="taxbase-ai.png" alt="TaxbaseAI">
+                        <div class="work-info">
+                            <span class="tag">AI / Fintech</span>
+                            <h4 data-i18n="works.item1.title">TaxbaseAI — Auditoria Contábil com IA</h4>
+                        </div>
+                    </div>
+                    <div class="work-card animate-on-scroll" onclick="openModal('automation')">
+                        <img src="analista-automatico.png" alt="Analista Automático">
+                        <div class="work-info">
+                            <span class="tag">RPA / ML</span>
+                            <h4 data-i18n="works.item2.title">Automation Core — Analista Automático v3.0</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag animate-on-scroll" data-i18n="testimonials.tag">Social Proof</span>
+                    <h2 class="section-title animate-on-scroll" data-i18n="testimonials.title">O que dizem os parceiros</h2>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card animate-on-scroll">
+                        <span class="quote-icon">“</span>
+                        <p class="testimonial-text" data-i18n="testimonials.item1.text">A QueryShift redefiniu nossa eficiência operacional. A automação de fluxos que desenvolveram para a Ambev trouxe agilidade real à nossa logística.</p>
+                        <h5 class="white" data-i18n="testimonials.item1.author">Tech Lead, Ambev</h5>
+                    </div>
+                    <div class="testimonial-card animate-on-scroll">
+                        <span class="quote-icon">“</span>
+                        <p class="testimonial-text" data-i18n="testimonials.item2.text">Inovação técnica de ponta. A automatização das soluções fiscais que a QueryShift integrou ao nosso ecossistema do Domínio Sistemas trouxe uma produtividade sem precedentes.</p>
+                        <h5 class="white" data-i18n="testimonials.item2.author">Tax Manager, Deloitte</h5>
+                    </div>
+                    <div class="testimonial-card animate-on-scroll">
+                        <span class="quote-icon">“</span>
+                        <p class="testimonial-text" data-i18n="testimonials.item3.text">Parceiros estratégicos em dados. A arquitetura de BI que desenharam para a Taxbase transformou nossa análise fiscal em decisões seguras.</p>
+                        <h5 class="white" data-i18n="testimonials.item3.author">Product Manager, Taxbase</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section section-padding section-light">
+            <div class="container grid-2">
+                <div class="about-text">
+                    <span class="section-tag animate-on-scroll" data-i18n="about.tag">A Agência</span>
+                    <h2 class="animate-on-scroll" data-i18n="about.title">Focados em Performance</h2>
+                    <p class="animate-on-scroll" data-i18n="about.desc">Somos engenheiros obcecados por eficiência. Na QueryShift, não apenas escrevemos código; desenhamos estratégias de crescimento aceleradas por tecnologia.</p>
+                    <div class="founders-list mt-4">
+                        <div class="founder-item animate-on-scroll">
+                            <div class="founder-avatar">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                            </div>
+                            <div>
+                                <h4 data-i18n="about.founder1.name">Eduardo</h4>
+                                <p data-i18n="about.founder1.role">Head of Engineering & Systems Architecture</p>
+                            </div>
+                        </div>
+                        <div class="founder-item animate-on-scroll">
+                            <div class="founder-avatar">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            </div>
+                            <div>
+                                <h4 data-i18n="about.founder2.name">Fabrício</h4>
+                                <p data-i18n="about.founder2.role">Head of Data Science & Business Strategy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual animate-on-scroll">
+                    <div class="glass-box">
+                        <h3 data-i18n="about.mission">Construindo softwares que não apenas funcionam, mas lideram mercados.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-padding">
+            <div class="container narrow-container animate-on-scroll">
+                <div class="text-center section-header">
+                    <span class="section-tag" data-i18n="contact.tag">Inicie o Shift</span>
+                    <h2 data-i18n="contact.title">Pronto para o Próximo Nível?</h2>
+                    <p data-i18n="contact.subtitle">Agende uma consultoria estratégica gratuita de 30 minutos com nossos fundadores.</p>
+                </div>
+                <form id="contact-form" class="contact-form" action="https://formspree.io/f/mlgovgwl" method="POST">
+                    <div class="form-group">
+                        <label for="name" data-i18n="contact.name">Nome Completo</label>
+                        <input type="text" id="name" name="name" required placeholder="Ex: João Silva" data-i18n="contact.name_placeholder">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-i18n="contact.email">E-mail Profissional</label>
+                        <input type="email" id="email" name="email" required placeholder="seu@email-empresa.com" data-i18n="contact.email_placeholder">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-i18n="contact.message">Desafie-nos</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="Conte-nos sobre seu projeto" data-i18n="contact.message_placeholder"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width mb-4" data-i18n="contact.send" style="display: block;">Solicitar Consultoria</button>
+                    
+                    <div class="text-center pt-4" style="border-top: 1px solid var(--border); margin-top: 4rem;">                        <p class="mb-3 secondary-text" style="font-size: 0.8rem; opacity: 0.7; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 2rem;" data-i18n="contact.calendar_tag">Ou prefere escolher um horário?</p>
+                        <a href="https://calendar.app.google/EwJ2HtrSPwon4qQZ9" target="_blank" class="btn btn-outline full-width" data-i18n="contact.calendar">Ver Agenda no Google Calendar</a>
+                        <p class="text-center mt-3 secondary-text" style="font-size: 0.8rem; opacity: 0.7;" data-i18n="contact.availability">Disponibilidade: Quartas, Sextas e Finais de Semana</p>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <span class="logo-text white">Query<span class="accent">Shift</span></span>
+                    <p data-i18n="footer.desc">2026 © QueryShift. Todos os direitos reservados. Boutique de Software de Alta Performance.</p>
+                </div>
+                <div class="footer-links" data-reveal="fade-up">
+                    <a href="https://linkedin.com" target="_blank" class="footer-link">LinkedIn</a>
+                    <a href="https://github.com" target="_blank" class="footer-link">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="case-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal()">&times;</button>
+            <div class="modal-header">
+                <span id="modal-tag" class="section-tag">Estudo de Caso</span>
+                <h2 id="modal-title" class="section-title">TaxbaseAI</h2>
+                <img id="modal-img" src="taxbase-ai.png" alt="Case Study Image">
+            </div>
+            <div class="case-grid">
+                <div class="case-body">
+                    <h3 id="modal-vision-title">Visão Geral</h3>
+                    <p id="modal-vision-text"></p>
+                    
+                    <h3 id="modal-challenge-title">O Desafio</h3>
+                    <p id="modal-challenge-text"></p>
+                    
+                    <h3 id="modal-solution-title">Solução Implementada</h3>
+                    <p id="modal-solution-text"></p>
+
+                    <h3 id="modal-results-title">Resultados</h3>
+                    <p id="modal-results-text"></p>
+                </div>
+                <div class="case-sidebar">
+                    <h4 id="modal-stack-title" class="white mb-2">Technical Stack</h4>
+                    <ul id="stack-list">
+                        <!-- Populated by JS -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
