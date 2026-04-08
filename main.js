@@ -49,48 +49,48 @@ const translations = {
     works: {
       tag: "Portfólio",
       title: "Trabalhos Selecionados",
-      item1: { title: "TaxbaseAI — Auditoria Contábil com IA" },
-      item2: { title: "Automation Core: Analista Automático v3.0" }
+      item1: { title: "Smart Fiscal Auditor" },
+      item2: { title: "Hyper-Automation Flow" }
     },
     cases: {
       taxbase: {
-        title: "TaxbaseAI — Fintech com IA",
-        tag: "Estudo de Caso #01",
-        vision: "O Taxbase AI é uma solução de ponta que integra IA Generativa ao fluxo contábil, transformando DREs e Balanço em insights no chat.",
-        challenge: "Análise lenta e reativa de volumes massivos de dados financeiros, dependente de planilhas manuais e difícil interpretação.",
-        solution: "IA de alta performance com Gemini 2.5 para auditoria instantânea, análise de tendências e interação via linguagem natural.",
-        results: "Redução de 80% no tempo de auditoria e democratização dos dados para CEOs e Diretores."
+        title: "Smart Fiscal Auditor",
+        tag: "Arquitetura Corporativa #01",
+        vision: "Solução de ponta integrada ao fluxo contábil de alta complexidade, transformando dados brutos em insights estratégicos via IA Generativa.",
+        challenge: "Dificuldade na interpretação de volumes massivos de dados financeiros em tempo real, dependente de fluxos manuais e lentos.",
+        solution: "Desenvolvimento de arquitetura com IA de alta performance para auditoria automatizada e análise de tendências em linguagem natural.",
+        results: "Ganhos exponenciais na agilidade analítica e democratização da inteligência de dados para níveis executivos."
       },
       automation: {
-        title: "Automation Core — Analista Automático v3.0",
-        tag: "Estudo de Caso #02",
-        vision: "Uma plataforma de hiper-automação projetada para revolucionar o processamento de extratos bancários usando IA Multimodal e RPA.",
-        challenge: "A coleta manual de extratos no Google Drive e a digitação em ERPs consome milhares de horas e gera erros críticos de conformidade.",
-        solution: "Scanner Inteligente (Gemini Pro) que compreende layouts complexos e robôs RPA 'Self-Healing' que processam os dados diretamente no ERP Domínio.",
-        results: "Operação 24/7 com alta precisão e drástica redução do esforço manual, permitindo escala massiva para escritórios contábeis com supervisão técnica."
+        title: "Hyper-Automation Flow",
+        tag: "Arquitetura Corporativa #02",
+        vision: "Plataforma de hiper-automação projetada para otimizar processos bancários críticos usando visão computacional e agentes autônomos.",
+        challenge: "Processamento manual de documentos e conciliação em ERPs que geravam gargalos operacionais e riscos de conformidade.",
+        solution: "Construção de scanner inteligente de layouts complexos e robôs RPA resilientes para integração direta em sistemas contábeis.",
+        results: "Operação estável com drástica redução do erro humano e escalabilidade ilimitada para o processamento de dados financeiros."
       }
     },
     case_headers: {
-        vision: "Visão Geral",
+        vision: "Contexto do Projeto",
         challenge: "O Desafio",
-        solution: "Solução Implementada",
-        results: "Resultados",
+        solution: "Solução Técnica",
+        results: "Impacto Gerado",
         stack: "Technical Stack"
     },
     testimonials: {
       tag: "Social Proof",
       title: "O que dizem os parceiros",
       item1: { 
-        text: "A QueryShift redefiniu nossa eficiência operacional. A automação de fluxos que desenvolveram para a Ambev trouxe agilidade real à nossa logística.",
-        author: "Tech Lead, Ambev"
+        text: "A QueryShift redefiniu nossa eficiência operacional. A automação de fluxos que desenvolveram trouxe agilidade real à nossa logística global.",
+        author: "Tech Lead, Multinacional de Bebidas"
       },
       item2: { 
-        text: "Inovação técnica de ponta. A automatização das soluções fiscais que a QueryShift integrou ao nosso ecossistema do Domínio Sistemas trouxe uma produtividade sem precedentes.",
-        author: "Tax Manager, Deloitte"
+        text: "Inovação técnica de ponta. A automatização das soluções fiscais que integraram ao nosso ecossistema trouxe uma produtividade sem precedentes.",
+        author: "Tax Manager, Empresa Big Four"
       },
       item3: { 
-        text: "Parceiros estratégicos em dados. A arquitetura de BI que desenharam para a Taxbase transformou nossa análise fiscal em decisões seguras.",
-        author: "Product Manager, Taxbase"
+        text: "Parceiros estratégicos em dados. A arquitetura de BI que desenharam transformou nossa análise fiscal em decisões seguras.",
+        author: "Product Manager, Fintech de Inteligência"
       }
     },
     about: {
@@ -174,48 +174,48 @@ const translations = {
     works: {
       tag: "Portfolio",
       title: "Selected Works",
-      item1: { title: "TaxbaseAI — AI-Driven Fiscal Audit" },
-      item2: { title: "Automation Core: Analista Automático v3.0" }
+      item1: { title: "Smart Fiscal Auditor" },
+      item2: { title: "Hyper-Automation Flow" }
     },
     cases: {
       taxbase: {
-        title: "TaxbaseAI — Fintech with AI",
-        tag: "Case Study #01",
-        vision: "Taxbase AI is a cutting-edge solution integrating Generative AI into the accounting workflow, transforming P&L and Balance sheets into chat insights.",
-        challenge: "Slow and reactive analysis of massive financial data volumes, dependent on manual spreadsheets and difficult interpretation.",
-        solution: "High-performance AI with Gemini 2.5 for instant auditing, trend analysis, and natural language interaction.",
-        results: "80% reduction in audit time and democratization of data for CEOs and Directors."
+        title: "Smart Fiscal Auditor",
+        tag: "Corporate Architecture #01",
+        vision: "Cutting-edge solution integrated into highly complex accounting workflows, transforming raw data into strategic insights via Generative AI.",
+        challenge: "Difficulty in interpreting massive financial data volumes in real-time, dependent on slow manual workflows.",
+        solution: "Development of high-performance AI architecture for automated auditing and natural language trend analysis.",
+        results: "Exponential gains in analytical agility and democratization of data intelligence for executive levels."
       },
       automation: {
-        title: "Automation Core — Analista Automático v3.0",
-        tag: "Case Study #02",
-        vision: "A hyper-automation platform designed to revolutionize bank statement processing using Multimodal AI and RPA.",
-        challenge: "Manual collection of statements and data entry into ERPs consumes thousands of hours and produces critical compliance errors.",
-        solution: "Intelligent Scanner (Gemini Pro) that understands complex layouts and 'Self-Healing' RPA robots that process data directly into the ERP.",
-        results: "24/7 operation with high precision and drastic reduction of manual effort, enabling massive scale for accounting firms with technical oversight."
+        title: "Hyper-Automation Flow",
+        tag: "Corporate Architecture #02",
+        vision: "Hyper-automation platform designed to optimize critical banking processes using computer vision and autonomous agents.",
+        challenge: "Manual document processing and ERP reconciliation generating operational bottlenecks and compliance risks.",
+        solution: "Construction of an intelligent scanner for complex layouts and resilient RPA robots for direct integration into accounting systems.",
+        results: "Stable operation with a drastic reduction in human error and unlimited scalability for financial data processing."
       }
     },
     case_headers: {
-        vision: "Overview",
+        vision: "Project Context",
         challenge: "The Challenge",
-        solution: "Implemented Solution",
-        results: "Results",
+        solution: "Technical Solution",
+        results: "Results & Impact",
         stack: "Technical Stack"
     },
     testimonials: {
       tag: "Social Proof",
       title: "What our partners say",
       item1: { 
-        text: "QueryShift redefined our operational efficiency. The workflow automation they developed for Ambev brought real agility to our logistics.",
-        author: "Tech Lead, Ambev"
+        text: "QueryShift redefined our operational efficiency. Their workflow automation brought real agility to our global logistics.",
+        author: "Tech Lead, Global Beverage Leader"
       },
       item2: { 
-        text: "Top-tier technical innovation. The automation of fiscal solutions that QueryShift integrated into our Domínio Sistemas ecosystem brought unprecedented productivity.",
-        author: "Tax Manager, Deloitte"
+        text: "Top-tier technical innovation. The automation of fiscal solutions they integrated into our ecosystem brought unprecedented productivity.",
+        author: "Tax Manager, Big Four Firm"
       },
       item3: { 
-        text: "Strategic data partners. The BI architecture they designed for Taxbase transformed our fiscal analysis into secure decisions.",
-        author: "Product Manager, Taxbase"
+        text: "Strategic data partners. The BI architecture they designed transformed our fiscal analysis into secure decisions.",
+        author: "Product Manager, Fiscal Intelligence Fintech"
       }
     },
     about: {
@@ -254,11 +254,11 @@ const translations = {
 const projectData = {
     taxbase: {
         image: "/taxbase-ai.png",
-        stack: ["Python / FastAPI", "Google Vertex AI (Gemini 2.5)", "BigQuery", "Docker / Cloud Run", "Streamlit / Next.js"]
+        stack: ["Python / FastAPI", "Generative AI (LLMs)", "BigQuery", "Docker / Cloud Run", "Microservices Architecture"]
     },
     automation: {
         image: "/analista-automatico.png",
-        stack: ["Python 3.10+", "Gemini 2.5 Pro", "OpenCV", "Pywinauto / RPA", "Google API Suite", "CustomTkinter"]
+        stack: ["Python 3.10+", "Vision Computacional", "OpenCV", "Pywinauto / RPA", "Cloud API Suite", "Resilient Workflow Engine"]
     }
 };
 
