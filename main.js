@@ -253,11 +253,11 @@ const translations = {
 
 const projectData = {
     taxbase: {
-        image: "taxbase-ai.png",
+        image: "/taxbase-ai.png",
         stack: ["Python / FastAPI", "Google Vertex AI (Gemini 2.5)", "BigQuery", "Docker / Cloud Run", "Streamlit / Next.js"]
     },
     automation: {
-        image: "analista-automatico.png",
+        image: "/analista-automatico.png",
         stack: ["Python 3.10+", "Gemini 2.5 Pro", "OpenCV", "Pywinauto / RPA", "Google API Suite", "CustomTkinter"]
     }
 };
