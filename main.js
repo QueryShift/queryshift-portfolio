@@ -50,7 +50,7 @@ const translations = {
       tag: "Portfólio",
       title: "Trabalhos Selecionados",
       item1: { title: "Smart Fiscal Auditor" },
-      item2: { title: "Hyper-Automation Flow" }
+      item2: { title: "Hyper-Automation Platform for Financial Operations" }
     },
     cases: {
       taxbase: {
@@ -62,12 +62,12 @@ const translations = {
         results: "Ganhos exponenciais na agilidade analítica e democratização da inteligência de dados para níveis executivos."
       },
       automation: {
-        title: "Hyper-Automation Flow",
+        title: "Hyper-Automation Platform for Financial Operations",
         tag: "Arquitetura Corporativa #02",
-        vision: "Plataforma de hiper-automação projetada para otimizar processos bancários críticos usando visão computacional e agentes autônomos.",
-        challenge: "Processamento manual de documentos e conciliação em ERPs que geravam gargalos operacionais e riscos de conformidade.",
-        solution: "Construção de scanner inteligente de layouts complexos e robôs RPA resilientes para integração direta em sistemas contábeis.",
-        results: "Operação estável com drástica redução do erro humano e escalabilidade ilimitada para o processamento de dados financeiros."
+        vision: "Atuação em projeto corporativo voltado à hiperautomação de processos financeiros em uma empresa global do setor de tecnologia e dados.",
+        challenge: "Processamento manual de documentos e conciliações em sistemas ERP, gerando gargalos operacionais e riscos de inconsistência.",
+        solution: "Participação no desenvolvimento de uma solução baseada em visão computacional e RPA, com leitura automatizada de documentos complexos e integração com sistemas corporativos.",
+        results: "Melhoria significativa na eficiência operacional, redução de erros manuais e aumento da escalabilidade no processamento de dados."
       }
     },
     case_headers: {
@@ -175,7 +175,7 @@ const translations = {
       tag: "Portfolio",
       title: "Selected Works",
       item1: { title: "Smart Fiscal Auditor" },
-      item2: { title: "Hyper-Automation Flow" }
+      item2: { title: "Hyper-Automation Platform for Financial Operations" }
     },
     cases: {
       taxbase: {
@@ -187,12 +187,12 @@ const translations = {
         results: "Exponential gains in analytical agility and democratization of data intelligence for executive levels."
       },
       automation: {
-        title: "Hyper-Automation Flow",
+        title: "Hyper-Automation Platform for Financial Operations",
         tag: "Corporate Architecture #02",
-        vision: "Hyper-automation platform designed to optimize critical banking processes using computer vision and autonomous agents.",
-        challenge: "Manual document processing and ERP reconciliation generating operational bottlenecks and compliance risks.",
-        solution: "Construction of an intelligent scanner for complex layouts and resilient RPA robots for direct integration into accounting systems.",
-        results: "Stable operation with a drastic reduction in human error and unlimited scalability for financial data processing."
+        vision: "Participation in a corporate project focused on the hyper-automation of financial processes for a global technology and data firm.",
+        challenge: "Manual document processing and ERP reconciliations, generating operational bottlenecks and risks of inconsistency.",
+        solution: "Collaborated on the development of a solution based on computer vision and RPA, featuring automated reading of complex documents and integration with corporate systems.",
+        results: "Significant improvement in operational efficiency, reduction of manual errors, and increased scalability in data processing."
       }
     },
     case_headers: {
