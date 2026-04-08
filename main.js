@@ -253,11 +253,11 @@ const translations = {
 
 const projectData = {
     taxbase: {
-        image: "/taxbase-ai.png",
+        image: "/case-auditor.svg",
         stack: ["Python / FastAPI", "Generative AI (LLMs)", "BigQuery", "Docker / Cloud Run", "Microservices Architecture"]
     },
     automation: {
-        image: "/analista-automatico.png",
+        image: "/case-automation.svg",
         stack: ["Python 3.10+", "Vision Computacional", "OpenCV", "Pywinauto / RPA", "Cloud API Suite", "Resilient Workflow Engine"]
     }
 };
