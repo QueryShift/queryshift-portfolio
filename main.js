@@ -67,7 +67,7 @@ const translations = {
         vision: "Uma plataforma de hiper-automação projetada para revolucionar o processamento de extratos bancários usando IA Multimodal e RPA.",
         challenge: "A coleta manual de extratos no Google Drive e a digitação em ERPs consome milhares de horas e gera erros críticos de conformidade.",
         solution: "Scanner Inteligente (Gemini Pro) que compreende layouts complexos e robôs RPA 'Self-Healing' que processam os dados diretamente no ERP Domínio.",
-        results: "Operação 24/7 com erro zero e eliminação completa da entrada manual de dados, permitindo escala massiva para escritórios contábeis."
+        results: "Operação 24/7 com alta precisão e drástica redução do esforço manual, permitindo escala massiva para escritórios contábeis com supervisão técnica."
       }
     },
     case_headers: {
@@ -192,7 +192,7 @@ const translations = {
         vision: "A hyper-automation platform designed to revolutionize bank statement processing using Multimodal AI and RPA.",
         challenge: "Manual collection of statements and data entry into ERPs consumes thousands of hours and produces critical compliance errors.",
         solution: "Intelligent Scanner (Gemini Pro) that understands complex layouts and 'Self-Healing' RPA robots that process data directly into the ERP.",
-        results: "24/7 operation with zero errors and complete elimination of manual data entry, enabling massive scale for accounting firms."
+        results: "24/7 operation with high precision and drastic reduction of manual effort, enabling massive scale for accounting firms with technical oversight."
       }
     },
     case_headers: {
