@@ -1,28 +1,54 @@
 <svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="800" height="450" fill="#0A0A0A"/>
+  
   <defs>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Glow Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.05" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0.01" />
+    </linearGradient>
+
+    <radialGradient id="redGlow" cx="50%" cy="50%" r="50%">
       <stop offset="0%" style="stop-color:#FF3131;stop-opacity:0.2" />
       <stop offset="100%" style="stop-color:#FF3131;stop-opacity:0" />
-    </linearGradient>
+    </radialGradient>
   </defs>
-  <circle cx="400" cy="225" r="150" stroke="url(#grad1)" stroke-width="1"/>
-  <circle cx="400" cy="225" r="100" stroke="#FF3131" stroke-width="0.5" stroke-dasharray="10 5"/>
-  
-  <!-- Data Points -->
-  <circle cx="300" cy="150" r="4" fill="#FF3131"/>
-  <circle cx="500" cy="300" r="4" fill="#FF3131"/>
-  <circle cx="500" cy="150" r="4" fill="#FFFFFF" fill-opacity="0.5"/>
-  <circle cx="300" cy="300" r="4" fill="#FFFFFF" fill-opacity="0.5"/>
-  
-  <!-- Connecting Lines -->
-  <path d="M300 150 L500 300" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1"/>
-  <path d="M500 150 L300 300" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1"/>
-  <path d="M400 75 L400 375" stroke="#FF3131" stroke-opacity="0.2" stroke-width="1"/>
-  
-  <!-- Central Audit Node -->
-  <rect x="370" y="195" width="60" height="60" rx="4" stroke="#FF3131" stroke-width="2"/>
-  <path d="M385 225 H415 M400 210 V240" stroke="#FFFFFF" stroke-width="1"/>
-  
-  <text x="400" y="400" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.3" font-family="Arial" font-size="12" letter-spacing="4">SYSTEM ANALYTICS v1.0</text>
+
+  <!-- Background Glow -->
+  <circle cx="400" cy="225" r="250" fill="url(#redGlow)" />
+
+  <!-- Abstract Grid/Mesh -->
+  <g opacity="0.1">
+    <path d="M0 100 H800 M0 200 H800 M0 300 H800 M0 400 H800" stroke="white" stroke-width="0.5"/>
+    <path d="M100 0 V450 M200 0 V450 M300 0 V450 M400 0 V450 M500 0 V450 M600 0 V450 M700 0 V450" stroke="white" stroke-width="0.5"/>
+  </g>
+
+  <!-- Glass Data Prism -->
+  <g transform="translate(300, 125)">
+    <!-- Back layer -->
+    <rect x="20" y="20" width="160" height="160" rx="12" fill="url(#glassGrad)" stroke="white" stroke-opacity="0.1" filter="url(#glow)"/>
+    <!-- Front layer -->
+    <rect x="0" y="0" width="160" height="160" rx="12" fill="url(#glassGrad)" stroke="white" stroke-opacity="0.2"/>
+    
+    <!-- Analysis Elements -->
+    <circle cx="80" cy="80" r="40" stroke="#FF3131" stroke-width="2" filter="url(#glow)"/>
+    <path d="M60 80 H100 M80 60 V100" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Floating Nodes -->
+    <circle cx="20" cy="20" r="4" fill="#FF3131" filter="url(#glow)"/>
+    <circle cx="140" cy="140" r="4" fill="#FF3131" filter="url(#glow)"/>
+    <circle cx="20" cy="140" r="3" fill="white" fill-opacity="0.5"/>
+    <circle cx="140" cy="20" r="3" fill="white" fill-opacity="0.5"/>
+  </g>
+
+  <!-- Data Stream accents -->
+  <path d="M50 350 Q400 300 750 350" stroke="#FF3131" stroke-width="1" stroke-opacity="0.3" fill="none"/>
+  <path d="M50 370 Q400 320 750 370" stroke="white" stroke-width="1" stroke-opacity="0.1" fill="none"/>
+
+  <text x="400" y="420" text-anchor="middle" fill="white" fill-opacity="0.2" font-family="Inter, sans-serif" font-size="10" font-weight="600" letter-spacing="8">SMART AUDIT ENGINE</text>
 </svg>
